@@ -1,0 +1,28 @@
+.sec3{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 50px;
+  margin-top: 50px;
+}
+body{
+  background-color:  #f0eeee;;
+}
+
+@media screen and (max-width: 768px) {
+  .sec3{
+    display: block;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .sec3{
+    display: block;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* أنماط CSS للشاشات التي يكون عرضها أكبر من 992 بكسل */
+}

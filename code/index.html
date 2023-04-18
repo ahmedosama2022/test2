@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <navber>
+    <nav class="navbar navbar-expand-lg " style="box-shadow:20px 20px 60px #bebebe; background-color: rgba(233, 228, 228, 0.685);">
+      <div class="container">
+       
+        <div class="collapse navbar-collapse " style="width: 100%;" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " style="color: black;" href="#" tabindex="-1" aria-disabled="true">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="color: black;" aria-current="page" href="#">Protfile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: black;" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"style="color: black;" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"style="color: black;" href="#">contact</a>
+            </li>
+            <h4 style="position: relative; left: 180px; align-items: center; text-align: center; color: rgba(3, 3, 3, 0.637);" class="navar-brad" >Protofile 2 Grow</h4>
+          </ul>
+          
+        </div>
+       
+       <div class="icon" style="display: flex; justify-content: space-between; width: 180px;">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEUoKCj///8AAAAVFRWtra2lpaWioqIMDAwYGBgICAje3t4fHx/U1NRsbGzExMTOzs6Xl5djY2P29vbk5OQeHh7FxcW9vb3Z2dmKiooWFhaAgIDt7e11dXVZWVnn5+e4uLiPj49ISEgvLy82NjZTU1M/Pz9ycnJ8fHw0NDQ9PT1bsa+uAAAHNklEQVR4nO3d23qqOhQGUAhWDkFRRFSooj3Y3fd/wY1tUYGACWYGZhb/zeq6AcaHhADJjGHqHqPvAwDPKMSfUYg/nYRhelh53saPJ2oSB0Hge6tDCC5M59Pt/t2xbZdc4tqWmthunnx/rk1Pr8csSEGEm5elQWwrokavoZFjueR99uJLFYbrV0Ksnm2lUIuQ17ksoZdEbtQ3iZH8qJKNBGHwQYbI+01EPtZPCoMTGdKPsx5KTsETwnQ5cN8llCxb29Y24XSQl189kTvtJEz3bt+Hzh1333waG4WBjeME/iYijVdjk3BK+j5owZAXMWGCDZgTtyLCmd338XYISfiFS6vvo+0U94tXeMYJzImsHypDmGD8if6GHHmEL/gamVtI/FgYYAbmRO+RMMTTkWnII+EeU0+GFee1XfiC/hTWLsWyMMXbjN7ihC3CJfbf6CVO0iz0cbejRciqUfgx/Cd6ntB9kxD5rfAW4jcI93qcwspJvBN6upzC8pV4J9w6fR+YtDhHplCX3+hPWMI1/u7MLXcvpm7CRIe7fRFnyxDqcxX+pC7UqCW9hBxqwgnWlzPsWFlNONPpMjSM6KsmfO/7mOSGnqrCUK/L0DDssCIMdLobXkI2FWGmV0OTn8N5RXjU7HZoWNOK8FWvpjRvTJOK8KRVv9u4e0YshLoBjWu/rfhXh9eI5ezKQvwv82uxy8JUQ2FYEq5069IYhpuWhJo9O13iHkrCjX7C4n3bn9DX7zqsCLXreI9CHTJkIXV+R+czw/2EMFShYxM6O2bzoCH+Fy9xkEKHvG/XDyZTLHgfZIcnpHZ0rA2G0UhIySlrZmkgtD8fzipALaSNA3w1EVqfAlO1MApJdZyWbkKyEAEiFJK22SA6CF3GqF5JQm8QQmcmCMQmpN+iQGzC8hg7DYW2YCuDTkg/xYG4hIS3L4pVSD86AFEJm6cMQgh7GNTW6SpEJbQmugtJpzoeiISRcH8Nm9CuzzLTTShUggWhsGNLappTLEKH47kwnZ7qNX64B41UharHYnBchtvnSuL0LXz43ORbT45D61toN9t+Mn/6s3vPwtsAV3YkjA3pW7hsF34+PwqtZ2HErvBQJJYwNKRnodP+GngpYSBhz0Kr/VOMjJGSfQtbH53CnYRd9C1sPYejkCujEDijUMIu/gHhZhSCZhRK2MUoBI564XwUSs4olLCLUQgcFUJ/FIJmFErYxbCFNm0K/y5cRUJK2GkdDRXul035b2hCulx5zHT8Piow51yVsOPX+sbwlw1AKhQoUIJUKPBNCqlQYHQaUmHGf5xIhVP+vgBSoUDlQ6RCgQ+LSIUCRWaQCt/4d41TGAqMscEpTAVGMOAUihS3qAhjHEKRw8QpFClfiVMoUuoYp/AsUFXODTAKRYrG4xSK7BqnUGRAH0qhyA0fp1CoXhdKodCXanuNUChUr7oo0YpKyD1fBq1QqIzsoIWLho8dQnVyVQmXG5+ZQ7PPNKcyyjYrEhqUXZOs/dsTKmFD2r8fjkKujELgjEIJuxiFwBmFEnYxCoEzCiXsYhQCZxRK2IWi9zRNUSGM/zHhsMaXQgiHNWcGoqVRXc1MgbDyzlv1as4qhOUvpKrXKFEgrMwoUb3OjAphucruQT9hZZ0Z1ashqWhLy6shqV6zS4XQLAsVLw6oQFhdd+1bxjb5Ay+8VkcthCIjVSQEXnhdTLYQKl7DEl64K6oYFULF65DCC68l7wqh4m4bvLC2lqzi9YAVnMPqesDm5/MbFQi48FZb8ypUu5gsuJCxLrfatdXBhbdiYleh2qcLcOGttuZVqLbfBt/SXDd2+ytReSFCC50tQxio/JlCC4up6iWh0ADcZwMtfLtj3f4UGQj/bICFu7vSmndClW+jgIXkbjL8ndDcq1t+HFYYne82di9U2NbACotyezWhwpMIKoxKRYpLQnVXIqiQlIZ2loTmq6rmFFK425Y2VhZKKQzDE9BzWN5Y5b+Zot8poJDMW4XmTE3vFE7onCsbqwpDNc0pmJC+VTdWFYrNvOkcMGHpVsgWmhMVRCghqS+bUReaRwXfoYCErDVNGULzC/5DFIyQsJZ2YQnNMzgRREi2rI0xhWYCfS1CCJlnsEloLoCJAMKmdYUbhHnnBvTGKF/IaEXbhab3BtkLly2MaO0++FCYP2gA/lIlC8mseSG+FqGZRWCnUaow2mUtG2sTmmEiNqmxFyEl59aVFFuF+dU4gzFKE1Kyb7wCuYR5T/xMAB6LJQkdsn+4XOtDoWmmizfpSBnCiBjH1sm23MI8m8U3sR2Jd8gnhTSyiLHlW22XT5gnjbcflNhWJMXZWUijnU2s09eE4+wJCn9yWE+TvWHbLiHEde2/1FZhfJwHM52JZf1u+m9e9G9c2/leJovYE1qFVkz4lzBdeRs/WK/ncRxnWTYRz6Zt+/5kkmVxPJ+vgzy+7282nrc6dKvM20mIKqMQf0Yh/ugv/B8Ub5BTBbNqtwAAAABJRU5ErkJggg==" style="width: 20px; height: 20px;">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/twitter-1722376-1466162.png?f=webp&w=256" style="width: 30px; height: 25px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" style="width: 20px; height: 20px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/49/49656.png" style="width: 20px; height:20px;">
+       </div>
+
+      </div>
+    </nav>
+  </navber>
+
+  <h1 style="align-items: center; text-align: center; position: relative; top: 50px; font-weight: bolder; font-size: 50px; color: rgba(3, 3, 3, 0.637);">Ahmed Osama</h1>
+
+
+  <section class="sec3 container">
+    <div>
+     <div>
+      <h4 style="font-weight: bolder;color: rgba(3, 3, 3, 0.637);">Servise</h4>
+      <div style="display: flex; justify-content: space-between; align-items: center; text-align: center; width: 100%;">
+        <img src="https://thumbs.dreamstime.com/b/web-development-icon-trendy-flat-vector-white-background-programming-collection-illustration-can-be-use-mobile-eps-130326341.jpg" style="width: 100px;">
+        <h6 style="font-size: 12px;">Web Development</h6>
+      </div>
+      <p style="width: 200px; color: rgba(63, 57, 57, 0.699)">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+     </div>
+     <div>
+     
+      <div style="display: flex; justify-content: space-between; align-items: center; text-align: center; width: 100%;">
+        <img src="https://thumbs.dreamstime.com/b/web-development-icon-trendy-flat-vector-white-background-programming-collection-illustration-can-be-use-mobile-eps-130326341.jpg" style="width: 100px;">
+        <h6 style="font-size: 12px;">Ui Ux Desainer</h6>
+      </div>
+      <p style="width: 200px;color: rgba(63, 57, 57, 0.699)">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+     </div>
+     <div>
+     
+      <div style="display: flex; justify-content: space-between; align-items: center; text-align: center; width: 100%;">
+        <img src="https://thumbs.dreamstime.com/b/web-development-icon-trendy-flat-vector-white-background-programming-collection-illustration-can-be-use-mobile-eps-130326341.jpg" style="width: 100px;">
+        <h6 style="font-size: 12px; ">Web Consaition</h6>
+      </div>
+      <p style="width: 200px; color: rgba(63, 57, 57, 0.699)" >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+     </div>
+   
+     
+     </div>
+  
+
+     <div style=" position: relative; top: 50px;background-color: rgb(177, 172, 172); height: 350px; padding: 20px; border-radius: 30px;">
+      <img style="width: 300px; height: 300px; align-items: center; text-align: center; position: relative; top: 10px; border-radius: 50%;" src="2b429e5c-ea82-489b-b1a3-b194c78c19c3.jpg">
+     </div>
+
+
+     <div>
+      <h5 style=" font-weight: bolder; color: rgb(53, 52, 52);;">SoftWare Developer Specialized in
+        <br>
+         Frontend Web Development</h5>
+         <br>
+         <p style="width: 300px; color: gray;">Lorem ipsum dolor sit amet consectetur
+          
+           adipisicing elit. Exercitationem, adipisci! Amet impedit enim 
+        
+           molestias quaerat deserunt repudiandae possimus vel in assumenda
+         
+            quas eius exercitationem quibusdam iste ad, nihil, obcaecati fugiat.</p>
+            <br>
+            <button style="background-color: rgb(53, 52, 52); color: white; border: none; width: 100px ;height: 40px;">Hire me</button>
+            <br>
+            <br>
+            <div style="display: flex; justify-content: space-between; width: 200px;">
+              <div>
+                <h5 style="font-weight: bolder;">9+ Years</h5>
+                <p style="color: gray;">Experience</p>
+              </div>
+              <div >
+                <h5 style="font-weight: bolder;">99+ </h5>
+                <p style="color: gray;">Clients</p>
+              </div>
+            </div>
+     </div>
+
+
+   
+  
+  </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
